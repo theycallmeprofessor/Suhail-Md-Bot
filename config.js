@@ -61,7 +61,7 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ",",
+  HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
   caption : process.env.CAPTION || "©MirZa" , // ```『 MirZa 』```", //*『• 』*\n youtube.com/@mirza"),
@@ -84,7 +84,7 @@ module.exports = {
 
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
 
 
